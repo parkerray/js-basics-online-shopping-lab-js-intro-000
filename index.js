@@ -14,8 +14,7 @@ function addToCart(item) {
     name: `${item}`,
     price: Math.floor(Math.random() * Math.floor(100))
   }
-  console.log(item.price);
-  return `${item.name} has been added to your cart.`
+  return `${itemObject.name} has been added to your cart.`
 }
 
 function viewCart() {
