@@ -10,11 +10,11 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  let itemObject = {
+  let item = {
     name: `${item}`,
     price: Math.floor(Math.random() * Math.floor(100))
   }
-  return `${itemObject.name} has been added to your cart.`
+  return `${item.name} has been added to your cart.`
 }
 
 function viewCart() {
